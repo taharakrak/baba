@@ -3,71 +3,71 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#0A0A0A] text-white/40 pt-32 pb-12 border-t border-white/5">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-24">
-          <div className="space-y-8">
-            <div className="text-2xl font-serif tracking-[0.3em] text-white uppercase flex flex-col items-start">
+    <footer className="bg-[#080909] text-white/30 pt-40 pb-16 border-t border-white/5">
+      <div className="max-w-7xl mx-auto px-6 lg:px-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-20 mb-32">
+          <div className="space-y-10">
+            <div className="text-3xl font-serif tracking-[0.4em] text-white uppercase flex flex-col items-start">
                <span>F & H</span>
-               <div className="h-[1px] w-full bg-[#C5A059] mt-1"></div>
+               <div className="h-[1px] w-24 bg-[#CBB28D] mt-3"></div>
             </div>
-            <p className="text-xs leading-loose font-light tracking-wide">
-              The destination for discerning individuals seeking excellence in grooming and relaxation. EST 2014.
+            <p className="text-[11px] leading-loose font-light tracking-[0.1em] max-w-xs">
+              Crafting visual identities for the elite since 2014. A masterclass in precision, atmosphere, and masculine elegance.
             </p>
           </div>
 
           <div>
-            <h4 className="text-white text-[10px] font-bold uppercase tracking-[0.5em] mb-10">Exploration</h4>
-            <ul className="space-y-5 text-[11px] uppercase tracking-[0.2em]">
-              <li><a href="#" className="hover:text-[#C5A059] transition-colors">Our Ethos</a></li>
-              <li><a href="#services" className="hover:text-[#C5A059] transition-colors">Services</a></li>
-              <li><a href="#ai-style" className="hover:text-[#C5A059] transition-colors">Digital Stylist</a></li>
-              <li><a href="#" className="hover:text-[#C5A059] transition-colors">The Lounge</a></li>
+            <h4 className="text-white text-[10px] font-bold uppercase tracking-[0.6em] mb-12">The House</h4>
+            <ul className="space-y-6 text-[11px] uppercase tracking-[0.3em]">
+              <li><a href="#" className="hover:text-[#CBB28D] transition-colors duration-500">Heritage</a></li>
+              <li><a href="#services" className="hover:text-[#CBB28D] transition-colors duration-500">Menu</a></li>
+              <li><a href="#ai-style" className="hover:text-[#CBB28D] transition-colors duration-500">Neural Guide</a></li>
+              <li><a href="#" className="hover:text-[#CBB28D] transition-colors duration-500">Journal</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-white text-[10px] font-bold uppercase tracking-[0.5em] mb-10">Contact</h4>
-            <ul className="space-y-5 text-[11px] uppercase tracking-[0.2em]">
-              <li className="flex items-start space-x-3">
-                <span className="text-[#C5A059]">Loc.</span>
-                <span className="leading-relaxed">Downtown Blvd, Dubai, UAE</span>
+            <h4 className="text-white text-[10px] font-bold uppercase tracking-[0.6em] mb-12">Headquarters</h4>
+            <ul className="space-y-6 text-[11px] uppercase tracking-[0.3em]">
+              <li className="flex flex-col space-y-2">
+                <span className="text-[#CBB28D]/50 text-[9px]">Location</span>
+                <span className="leading-relaxed">Downtown Boulevard, Dubai</span>
               </li>
-              <li className="flex items-center space-x-3">
-                <span className="text-[#C5A059]">Tel.</span>
+              <li className="flex flex-col space-y-2">
+                <span className="text-[#CBB28D]/50 text-[9px]">Inquiries</span>
                 <span>+971 4 123 4567</span>
               </li>
-              <li className="flex items-center space-x-3">
-                <span className="text-[#C5A059]">Mail.</span>
-                <span>info@fhgents.com</span>
+              <li className="flex flex-col space-y-2">
+                <span className="text-[#CBB28D]/50 text-[9px]">Digital</span>
+                <span className="lowercase">concierge@fhgents.com</span>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-white text-[10px] font-bold uppercase tracking-[0.5em] mb-10">Connect</h4>
-            <p className="text-[11px] mb-8 leading-relaxed">Join our private circle for exclusive updates and seasonal styles.</p>
-            <form className="relative">
+            <h4 className="text-white text-[10px] font-bold uppercase tracking-[0.6em] mb-12">Private Circle</h4>
+            <p className="text-[11px] mb-10 leading-loose tracking-wide">Receive exclusive access to our seasonal lookbooks and private events.</p>
+            <form className="relative group">
               <input 
                 type="email" 
-                placeholder="Email address" 
-                className="bg-transparent border-b border-white/10 pb-3 w-full text-[11px] text-white placeholder-white/20 focus:outline-none focus:border-[#C5A059] transition-colors"
+                placeholder="Secure email address" 
+                className="bg-transparent border-b border-white/5 pb-4 w-full text-[11px] text-white placeholder-white/10 focus:outline-none focus:border-[#CBB28D] transition-colors duration-700"
               />
-              <button className="absolute right-0 top-0 text-[#C5A059] hover:text-white transition-colors">
+              <button className="absolute right-0 top-0 text-[#CBB28D]/50 group-hover:text-[#CBB28D] transition-colors duration-500 p-1">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </button>
             </form>
           </div>
         </div>
         
-        <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-[9px] uppercase tracking-[0.4em] space-y-4 md:space-y-0 text-white/20">
-          <p>© 2025 F & H Gents Saloon. Crafted with Precision.</p>
-          <div className="flex space-x-8">
-            <a href="#" className="hover:text-white transition-colors">Instagram</a>
-            <a href="#" className="hover:text-white transition-colors">Facebook</a>
-            <a href="#" className="hover:text-white transition-colors">Journal</a>
+        <div className="pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-[9px] uppercase tracking-[0.5em] space-y-8 md:space-y-0 text-white/10 font-bold">
+          <p>© 2025 F & H Gents Saloon. All Rights Reserved. Defined by Precision.</p>
+          <div className="flex space-x-12">
+            <a href="#" className="hover:text-[#CBB28D] transition-colors duration-500">Instagram</a>
+            <a href="#" className="hover:text-[#CBB28D] transition-colors duration-500">Vimeo</a>
+            <a href="#" className="hover:text-[#CBB28D] transition-colors duration-500">Privacy</a>
           </div>
         </div>
       </div>

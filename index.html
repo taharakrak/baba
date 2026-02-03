@@ -9,15 +9,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <style>
         :root {
-            --gold: #C5A059;
-            --gold-dark: #A6823F;
-            --bg-dark: #0D0D0D;
+            --gold: #CBB28D;
+            --gold-dark: #8E7B5D;
+            --bg-dark: #0F1110;
         }
         body {
             font-family: 'Inter', sans-serif;
             background-color: var(--bg-dark);
-            color: #f3f4f6;
-            letter-spacing: 0.02em;
+            color: #F5F5F5;
+            letter-spacing: 0.03em;
         }
         .font-serif {
             font-family: 'Tenor Sans', serif;
@@ -25,7 +25,7 @@
         .font-playfair {
             font-family: 'Playfair Display', serif;
         }
-        /* Grainy texture overlay */
+        /* Grainy texture overlay - slightly warmer */
         .grain-overlay::before {
             content: "";
             position: fixed;
@@ -35,7 +35,7 @@
             height: 100%;
             pointer-events: none;
             z-index: 100;
-            opacity: 0.04;
+            opacity: 0.05;
             background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
         }
         .border-gold {
@@ -52,10 +52,10 @@
             position: absolute;
             width: 0;
             height: 1px;
-            bottom: -4px;
+            bottom: -6px;
             left: 0;
             background-color: var(--gold);
-            transition: width 0.3s ease;
+            transition: width 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
         }
         .nav-link:hover::after {
             width: 100%;
