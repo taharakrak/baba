@@ -1,0 +1,7 @@
+{
+  "name": "F & H Gents Saloon",
+  "description": "A sophisticated and clean landing page for a modern barber shop, featuring AI-powered style recommendations and a premium aesthetic inspired by high-end grooming lounges.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
